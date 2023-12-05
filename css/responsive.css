@@ -1,0 +1,531 @@
+@media (max-width: 1650.98px) {
+  html {
+    font-size: 45%;
+  }
+
+  body {
+    font-size: 2.2rem;
+    line-height: 1.5;
+  }
+
+  .heading--45 {
+    font-size: 5.2rem;
+  }
+
+  .heading--35 {
+    font-size: 4.2rem;
+  }
+
+  .heading--30 {
+    font-size: 3.6rem;
+  }
+
+  .heading--28 {
+    font-size: 3.2rem;
+  }
+
+  .heading--25 {
+    font-size: 3rem;
+  }
+
+  .heading--22 {
+    font-size: 2.5rem;
+  }
+
+  .heading--20 {
+    font-size: 2.3rem;
+  }
+
+  .desc--18 {
+    font-size: 2.2rem;
+  }
+
+  .desc--16 {
+    font-size: 1.8rem;
+  }
+
+  .desc--15 {
+    font-size: 1.7rem;
+  }
+
+  .nav-toggler img {
+    width: 3.5rem;
+  }
+
+  .nav-sidebar__link {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .nav-sidebar__link svg {
+    width: 2.8rem;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .nav-sidebar__bottom .nav-sidebar__link {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .nav-sidebar__bottom .nav-sidebar__link svg {
+    width: 2.4rem;
+    height: auto;
+  }
+
+  .nav-toggler {
+    padding: 2rem 0;
+  }
+
+  .nav-sidebar {
+    width: 9rem;
+  }
+
+  .circle-content {
+    padding: 1.2rem;
+  }
+
+  .circle-content img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .circle-content--user,
+  .circle-content--user-lg {
+    padding: 0 !important;
+  }
+
+  .sidebar-logo {
+    min-height: 6rem;
+  }
+
+  .dashboard-total-box__title h2 {
+    font-size: 2.5rem;
+  }
+
+  .dashboard-total-box h3 span {
+    font-size: 1.6rem;
+  }
+
+  .dashboard-total-box {
+    padding-bottom: 3rem;
+  }
+
+  .dashboard-task-table th {
+    font-size: 1.8rem;
+  }
+
+  .dashboard-task-table td p {
+    font-size: 1.7rem;
+  }
+
+  .dashboard-sidebar-team__item {
+    min-width: 7rem;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .dashboard-sidebar-activity__user {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+
+@media (max-width: 1300.98px) {
+  html {
+    font-size: 48%;
+  }
+
+  .header__search {
+    display: none;
+  }
+
+  .dashboard-content {
+    flex-direction: column;
+    padding: 0 4rem;
+    gap: 4rem;
+    margin-top: 9rem;
+  }
+
+  .dashboard-content__sidebar {
+    width: 100%;
+    border-top: 0.15rem solid #e0e0e0;
+    border-right: 0.15rem solid #e0e0e0;
+    margin-bottom: 3rem;
+    padding-top: 0;
+  }
+
+  .dashboard-content__main {
+    padding-bottom: 0;
+  }
+
+  .header {
+    padding: 2rem 4rem;
+  }
+
+  .header__left {
+    padding: 0;
+  }
+
+  .header__right {
+    border: 0;
+    padding: 0;
+    width: auto;
+    gap: 4rem;
+  }
+
+  .circle-content--search {
+    display: flex;
+  }
+
+  .dashboard-sidebar-team {
+    border-bottom: 0.15rem solid #e0e0e0;
+  }
+
+  .dashboard-calendar--mobile {
+    display: block;
+    margin-top: 3rem;
+    border-top: 0.15rem solid #e0e0e0;
+    border-right: 0.15rem solid #e0e0e0;
+    border-left: 0.15rem solid #e0e0e0;
+    border-radius: 1.6rem;
+    -webkit-border-radius: 1.6rem;
+    -moz-border-radius: 1.6rem;
+    -ms-border-radius: 1.6rem;
+    -o-border-radius: 1.6rem;
+  }
+
+  .dashboard-calendar--desktop {
+    display: none;
+  }
+
+  .dashboard-calendar__date-dots {
+    display: none;
+  }
+
+  .dashboard-calendar__date p {
+    display: none;
+  }
+
+  .header__right-btns {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  html {
+    font-size: 50%;
+  }
+
+  .dashboard-content {
+    gap: 3rem;
+  }
+
+  .header__logo {
+    width: 17rem;
+  }
+
+  .dashboard-content {
+    padding: 0 3rem;
+  }
+
+  .header {
+    padding: 2rem 3rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-size: 1.6rem;
+  }
+
+  .heading--45 {
+    font-size: 4rem;
+  }
+
+  .heading--35 {
+    font-size: 3rem;
+  }
+
+  .heading--30 {
+    font-size: 2.8rem;
+  }
+
+  .heading--28 {
+    font-size: 2.5rem;
+  }
+
+  .heading--25 {
+    font-size: 2.2rem;
+  }
+
+  .heading--22 {
+    font-size: 2rem;
+  }
+
+  .heading--20 {
+    font-size: 1.8rem;
+  }
+
+  .desc--18 {
+    font-size: 1.6rem;
+  }
+
+  .desc--16 {
+    font-size: 1.5rem;
+  }
+
+  .desc--15 {
+    font-size: 1.3rem;
+  }
+
+  .nav-sidebar {
+    width: 6rem;
+    background: rgba(1, 89, 88, 1);
+    left: -6rem;
+    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+  }
+
+  .nav-sidebar--active {
+    left: 0;
+  }
+
+  .nav-toggler img {
+    width: 2.5rem;
+  }
+
+  .nav-sidebar__link {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  .nav-sidebar__link svg {
+    width: 1.7rem;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .nav-sidebar__bottom .nav-sidebar__link {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .nav-sidebar__bottom .nav-sidebar__link svg {
+    width: 1.5rem;
+    height: auto;
+  }
+
+  .nav-toggler {
+    padding: 1.5rem 0;
+  }
+
+  .nav-sidebar__links {
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .nav-sidebar-content {
+    padding-bottom: 1.5rem;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .circle-content {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .circle-content img {
+    width: 1.7rem;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .dashboard-content {
+    padding: 0 2rem;
+  }
+
+  .header {
+    padding: 2rem 2.5rem;
+  }
+
+  .header__right-profile-info {
+    display: none;
+  }
+
+  .circle-content--user {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .user-image {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .user-intro {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .alert-badge {
+    position: absolute;
+    top: -0.7rem;
+    right: -0.7rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .desc--15 {
+    font-size: 1.2rem;
+  }
+
+  .circle-content--user-lg {
+    width: 7rem !important;
+    height: 7rem !important;
+  }
+
+  .circle-content--user-lg .alert-badge {
+    top: -0.6rem;
+    right: -0.8rem;
+  }
+
+  .alert-badge--lg {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .user-intro__info h2 {
+    margin-bottom: 0.7rem;
+  }
+
+  .dashboard-box-heading a {
+    font-size: 1.4rem;
+    gap: 1rem;
+  }
+
+  .dashboard-box-heading a span {
+    width: 0.7rem;
+    height: 1.3rem;
+  }
+
+  .dashboard-calendar {
+    padding: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .dashboard-calendar__dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    margin-top: 3rem;
+  }
+
+  .dashboard-calendar__date {
+    width: 4rem;
+  }
+
+  .dashboard-calendar__date--today::after {
+    display: none;
+  }
+
+  .dashboard-content {
+    gap: 2rem;
+  }
+
+  .dashboard-calendar__arrows {
+    gap: 2.5rem;
+  }
+
+  .dashboard-sidebar-team,
+  .dashboard-sidebar-activity {
+    padding: 1.5rem;
+  }
+
+  .header__right {
+    gap: 1.5rem;
+  }
+
+  .dashboard-content__sidebar {
+    margin-bottom: 2rem;
+  }
+
+  .mobile-toggler {
+    width: 3rem;
+    display: block;
+  }
+
+  .mobile-toggler svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .mobile-toggler svg path {
+    stroke: black;
+  }
+
+  .nav-sidebar-wrapper {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+  }
+
+  .sidebar-close-btn {
+    display: block;
+  }
+
+  .sidebar-logo {
+    padding: 1.5rem 0;
+  }
+
+  .sidebar-logo img {
+    width: fit-content;
+    height: 3rem;
+  }
+
+  .nav-sidebar--expand .sidebar-logo img {
+    width: 13rem !important;
+  }
+
+  .nav-sidebar-wrapper {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+  }
+
+  .nav-sidebar--active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .nav-sidebar {
+    position: relative;
+    left: -100%;
+  }
+
+  .nav-sidebar--active .nav-sidebar {
+    left: 0;
+  }
+
+  .nav-sidebar__link p {
+    font-size: 13px;
+  }
+}
