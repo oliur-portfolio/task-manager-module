@@ -1,11 +1,14 @@
+tippy(".nav-sidebar__link", {
+  placement: "bottom",
+  delay: [300, 0],
+});
+
 // Modals
 MicroModal.init();
 
 // Mobile Toggler
 const mobileSidebarOpenBtn = document.querySelector(".mobile-toggler");
 const mobileSidebarCloseBtn = document.querySelector(".sidebar-close-btn");
-const sidebarExpandBtn = document.querySelector(".sidebar-expand-btn");
-const navSidebar = document.querySelector(".nav-sidebar");
 const navSidebarWrapper = document.querySelector(".nav-sidebar-wrapper");
 
 mobileSidebarOpenBtn.addEventListener("click", () => {
@@ -14,11 +17,6 @@ mobileSidebarOpenBtn.addEventListener("click", () => {
 
 mobileSidebarCloseBtn.addEventListener("click", () => {
   navSidebarWrapper.classList.remove("nav-sidebar--active");
-});
-
-sidebarExpandBtn.addEventListener("click", () => {
-  console.log("click expand");
-  navSidebar.classList.toggle("nav-sidebar--expand");
 });
 
 // Comment accordion Effect

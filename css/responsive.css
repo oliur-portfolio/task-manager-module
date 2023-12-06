@@ -120,15 +120,12 @@
     font-size: 1.7rem;
   }
 
-  .dashboard-sidebar-team__item {
-    min-width: 7rem;
-    width: 7rem;
-    height: 7rem;
+  .dashboard-sidebar-activity__items {
+    padding-left: 4rem;
   }
 
-  .dashboard-sidebar-activity__user {
-    width: 7rem;
-    height: 7rem;
+  .dashboard-sidebar-activity__info h3 {
+    font-size: 2rem;
   }
 }
 
@@ -211,6 +208,58 @@
   .header__right-btns {
     gap: 1.5rem;
   }
+
+  .dashboard-sidebar-team__items {
+    gap: 1.6rem;
+  }
+
+  .dashboard-sidebar-team__item {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .dashboard-sidebar-activity__info h3 {
+    font-size: 2.4rem;
+  }
+
+  .dashboard-sidebar-activity__user {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .dashboard-sidebar-activity {
+    border-bottom: 0.15rem solid #e0e0e0;
+  }
+
+  .modal__overlay {
+    padding: 50px;
+  }
+
+  .modal__container {
+    height: auto;
+    max-height: 100%;
+  }
+
+  .task-assign-modal-table th,
+  .task-assign-modal-table td {
+    font-size: 1.8rem;
+  }
+
+  .dashboard-task-table {
+    min-width: 1100px;
+  }
+
+  .nav-sidebar-wrapper {
+    position: fixed;
+  }
+
+  .main-layout {
+    display: block;
+  }
+
+  .main-content {
+    margin-left: 9rem;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -220,18 +269,32 @@
 
   .dashboard-content {
     gap: 3rem;
+    padding: 0 3rem;
   }
 
   .header__logo {
     width: 17rem;
   }
 
-  .dashboard-content {
-    padding: 0 3rem;
-  }
-
   .header {
     padding: 2rem 3rem;
+  }
+
+  .dashboard-total-boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modal-task-comments-content {
+    flex-direction: column-reverse;
+  }
+
+  .modal-task-comments-content__sidebar {
+    width: 100%;
+    flex: 1;
+  }
+
+  .modal-task-comments-content__main {
+    padding: 3rem;
   }
 }
 
@@ -526,6 +589,193 @@
   }
 
   .nav-sidebar__link p {
-    font-size: 13px;
+    font-size: 1.3rem;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .dashboard-total-boxes {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .dashboard-task-table th {
+    font-size: 1.6rem;
+  }
+
+  .dashboard-task-table td p {
+    font-size: 1.5rem;
+  }
+
+  .dashboard-content {
+    gap: 3rem;
+  }
+
+  .dashboard-total-boxes,
+  .dashboard-task-table-area {
+    margin-top: 3rem;
+  }
+
+  .dashboard-sidebar-activity__user {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .dashboard-sidebar-team__item {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .dashboard-sidebar-activity__item {
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .dashboard-sidebar-activity__info h3 {
+    font-size: 1.7rem;
+  }
+
+  .dashboard-sidebar-activity__item-radio {
+    left: -3.7rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .dashboard-sidebar-activity__items {
+    padding-left: 3.5rem;
+    gap: 3rem;
+  }
+
+  .dashboard-sidebar-activity__item-radio-line {
+    height: calc(100% + 0.3rem);
+  }
+
+  .dashboard-sidebar-team__items {
+    gap: 1rem;
+  }
+
+  .modal__overlay {
+    padding: 2.5rem;
+  }
+
+  .modal__container {
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+  }
+
+  .modal__header,
+  .modal-task-comments-content__sidebar,
+  .modal-task-comments-content__main {
+    padding: 2rem;
+  }
+
+  .modal__close {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .task-modal-intro h5 {
+    font-size: 1.8rem;
+  }
+
+  .modal-task-comments-content__sidebar-item h3 {
+    margin-bottom: 0.6rem;
+    font-size: 1.6rem;
+  }
+
+  .modal-task-comments-content__sidebar-item {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .all-comment-item {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .basic-accordion__item .accordion__answer {
+    padding: 2rem 0;
+  }
+
+  .all-comment-items {
+    gap: 2rem;
+  }
+
+  .all-comment-item {
+    padding-top: 0;
+  }
+
+  .modal-comment-box__bottom-btns .custom-btn,
+  .task-assign-btns .custom-btn {
+    font-size: 1.6rem;
+    min-width: auto;
+    padding: 8px 10px;
+    line-height: 1;
+    height: 40px;
+  }
+
+  .modal-comment-box__bottom-btns {
+    width: calc(100% - 0.5rem);
+    padding: 1.5rem 1.5rem;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+  }
+
+  .modal__content {
+    margin-top: 2rem;
+  }
+
+  .attachment-btn {
+    width: 2.3rem;
+  }
+
+  .modal-comment-box textarea {
+    border-radius: 1.2rem;
+    -webkit-border-radius: 1.2rem;
+    -moz-border-radius: 1.2rem;
+    -ms-border-radius: 1.2rem;
+    -o-border-radius: 1.2rem;
+    padding: 7rem 1.5rem;
+    line-height: 2.5rem;
+  }
+
+  .comment-tab-btns {
+    width: calc(100% - 0.5rem);
+    padding: 1.5rem 1.5rem;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+  }
+
+  .modal-comment-box {
+    height: 25rem;
+  }
+
+  .task-assign-modal-table th,
+  .task-assign-modal-table td {
+    font-size: 1.6rem;
+  }
+
+  .task-assign-label {
+    font-size: 1.4rem;
+    min-width: 11rem;
+    height: 3.5rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+  }
+
+  .task-assign-modal-table th:first-child,
+  .task-assign-modal-table td:first-child {
+    min-width: auto;
+  }
+
+  .task-assign-modal-table {
+    min-width: 100rem;
   }
 }
