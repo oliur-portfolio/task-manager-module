@@ -1771,12 +1771,13 @@ table.dataTable > thead > tr > td {
   cursor: pointer;
   padding: 12px 0;
   padding-right: 15px;
+  width: fit-content;
 }
 
 .dashboard-table-task-name__action {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: -5rem;
   width: max-content;
   height: 100%;
   padding: 1rem;
