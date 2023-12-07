@@ -81,6 +81,19 @@
                             <img src="images/assign-user.png" alt="due date" />
                             Assignee
                           </button>
+
+                          <div class="check-input">
+                            <input
+                              class="check-input-style"
+                              type="checkbox"
+                              checked
+                              id="logo-design-required"
+                              name="logo-design-required"
+                              value="logo-design-required"
+                            />
+
+                            <label for="logo-design-required">Required</label>
+                          </div>
                         </div>
                       </td>
                       <td>
@@ -95,11 +108,19 @@
                             Assignee
                           </button>
 
-                          <button
-                            class="task-assign-label task-assign-label--not-req"
-                          >
-                            Not Required
-                          </button>
+                          <div class="check-input">
+                            <input
+                              class="check-input-style"
+                              type="checkbox"
+                              id="logo-production-required"
+                              name="logo-production-required"
+                              value="logo-production-required"
+                            />
+
+                            <label for="logo-production-required">
+                              Required</label
+                            >
+                          </div>
                         </div>
                       </td>
                     </tr>
@@ -118,11 +139,19 @@
                             Assignee
                           </button>
 
-                          <button
-                            class="task-assign-label task-assign-label--not-req"
-                          >
-                            Not Required
-                          </button>
+                          <div class="check-input">
+                            <input
+                              class="check-input-style"
+                              type="checkbox"
+                              id="brochure-design-required"
+                              name="brochure-design-required"
+                              value="brochure-design-required"
+                            />
+
+                            <label for="brochure-design-required">
+                              Required</label
+                            >
+                          </div>
                         </div>
                       </td>
                       <td>
@@ -136,6 +165,21 @@
                             <img src="images/assign-user.png" alt="due date" />
                             Assignee
                           </button>
+
+                          <div class="check-input">
+                            <input
+                              class="check-input-style"
+                              type="checkbox"
+                              checked
+                              id="brochure-production-required"
+                              name="brochure-production-required"
+                              value="brochure-production-required"
+                            />
+
+                            <label for="brochure-production-required">
+                              Required</label
+                            >
+                          </div>
                         </div>
                       </td>
                     </tr>
@@ -399,6 +443,7 @@
                     class="nav-sidebar__link nav-sidebar__link--stroke-icon"
                     href="#"
                     data-tippy-content="New"
+                    data-micromodal-trigger="modal-task-assign"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -818,21 +863,14 @@
                               <div
                                 class="dashboard-table-task-name__action-arrow"
                               ></div>
-                              <p>Add a task or comment here</p>
+                              <p>Comment on task</p>
 
                               <div class="custom-btns">
                                 <button
-                                  class="custom-btn custom-btn--white"
-                                  data-micromodal-trigger="modal-task-assign"
-                                >
-                                  Add Task
-                                </button>
-
-                                <button
-                                  class="custom-btn"
+                                  class="custom-btn custom-btn--comment"
                                   data-micromodal-trigger="modal-task-comments"
                                 >
-                                  Add comments
+                                  <img src="images/comment.png" alt="comment" />
                                 </button>
                               </div>
                             </div>
@@ -880,21 +918,14 @@
                               <div
                                 class="dashboard-table-task-name__action-arrow"
                               ></div>
-                              <p>Add a task or comment here</p>
+                              <p>Comment on task</p>
 
                               <div class="custom-btns">
                                 <button
-                                  class="custom-btn custom-btn--white"
-                                  data-micromodal-trigger="modal-task-assign"
-                                >
-                                  Add Task
-                                </button>
-
-                                <button
-                                  class="custom-btn"
+                                  class="custom-btn custom-btn--comment"
                                   data-micromodal-trigger="modal-task-comments"
                                 >
-                                  Add comments
+                                  <img src="images/comment.png" alt="comment" />
                                 </button>
                               </div>
                             </div>
@@ -942,21 +973,14 @@
                               <div
                                 class="dashboard-table-task-name__action-arrow"
                               ></div>
-                              <p>Add a task or comment here</p>
+                              <p>Comment on task</p>
 
                               <div class="custom-btns">
                                 <button
-                                  class="custom-btn custom-btn--white"
-                                  data-micromodal-trigger="modal-task-assign"
-                                >
-                                  Add Task
-                                </button>
-
-                                <button
-                                  class="custom-btn"
+                                  class="custom-btn custom-btn--comment"
                                   data-micromodal-trigger="modal-task-comments"
                                 >
-                                  Add comments
+                                  <img src="images/comment.png" alt="comment" />
                                 </button>
                               </div>
                             </div>
@@ -1028,21 +1052,14 @@
                               <div
                                 class="dashboard-table-task-name__action-arrow"
                               ></div>
-                              <p>Add a task or comment here</p>
+                              <p>Comment on task</p>
 
                               <div class="custom-btns">
                                 <button
-                                  class="custom-btn custom-btn--white"
-                                  data-micromodal-trigger="modal-task-assign"
-                                >
-                                  Add Task
-                                </button>
-
-                                <button
-                                  class="custom-btn"
+                                  class="custom-btn custom-btn--comment"
                                   data-micromodal-trigger="modal-task-comments"
                                 >
-                                  Add comments
+                                  <img src="images/comment.png" alt="comment" />
                                 </button>
                               </div>
                             </div>
@@ -1090,21 +1107,14 @@
                               <div
                                 class="dashboard-table-task-name__action-arrow"
                               ></div>
-                              <p>Add a task or comment here</p>
+                              <p>Comment on task</p>
 
                               <div class="custom-btns">
                                 <button
-                                  class="custom-btn custom-btn--white"
-                                  data-micromodal-trigger="modal-task-assign"
-                                >
-                                  Add Task
-                                </button>
-
-                                <button
-                                  class="custom-btn"
+                                  class="custom-btn custom-btn--comment"
                                   data-micromodal-trigger="modal-task-comments"
                                 >
-                                  Add comments
+                                  <img src="images/comment.png" alt="comment" />
                                 </button>
                               </div>
                             </div>
@@ -1152,21 +1162,14 @@
                               <div
                                 class="dashboard-table-task-name__action-arrow"
                               ></div>
-                              <p>Add a task or comment here</p>
+                              <p>Comment on task</p>
 
                               <div class="custom-btns">
                                 <button
-                                  class="custom-btn custom-btn--white"
-                                  data-micromodal-trigger="modal-task-assign"
-                                >
-                                  Add Task
-                                </button>
-
-                                <button
-                                  class="custom-btn"
+                                  class="custom-btn custom-btn--comment"
                                   data-micromodal-trigger="modal-task-comments"
                                 >
-                                  Add comments
+                                  <img src="images/comment.png" alt="comment" />
                                 </button>
                               </div>
                             </div>
@@ -1220,64 +1223,64 @@
                 <div class="dashboard-sidebar-team__items-wrapper">
                   <div class="dashboard-sidebar-team__items">
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                     <!-- Single Item -->
-                    <div class="dashboard-sidebar-team__item">
+                    <a href="#" class="dashboard-sidebar-team__item">
                       <img src="images/user.png" alt="team" />
-                    </div>
+                    </a>
                     <!-- Single Item -->
                   </div>
                 </div>

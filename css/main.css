@@ -462,6 +462,24 @@ body {
   letter-spacing: 0.04rem;
 }
 
+.check-input {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.check-input-style {
+  font-size: 28px;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+.check-input label {
+  cursor: pointer;
+  color: rgba(114, 114, 114, 0.85);
+}
+
 ::-webkit-input-placeholder {
   color: #8d8d8d;
 }
@@ -878,7 +896,7 @@ body {
 .dashboard-total-box__title {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1.6rem !important;
 }
 
 .dashboard-total-box__icon {
@@ -1236,6 +1254,10 @@ th {
   background-color: #f2f2f2;
 }
 
+.task-assign-modal-table th {
+  background: transparent;
+}
+
 .task-assign-modal-table-wrapper {
   overflow-x: auto;
   overflow-y: auto;
@@ -1254,10 +1276,17 @@ th {
   font-weight: 400;
 }
 
+.task-assign-modal-table th,
+.task-assign-modal-table td {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .task-assign-labels {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
   flex-wrap: wrap;
 }
 
@@ -1750,7 +1779,7 @@ table.dataTable > thead > tr > td {
   top: 50%;
   left: 100%;
   width: max-content;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 0.8rem;
   -webkit-border-radius: 0.8rem;
   -moz-border-radius: 0.8rem;
@@ -1809,15 +1838,22 @@ table.dataTable > thead > tr > td {
 }
 
 .dashboard-table-task-name__action p {
-  font-size: 1.6rem;
-  line-height: 2.2rem;
-  margin-bottom: 1.5rem;
+  font-size: 2rem !important;
+  line-height: 3rem !important;
+  margin-bottom: 1rem;
+  color: rgba(114, 114, 114, 0.85) !important;
 }
 
-.dashboard-table-task-name__action button {
-  font-size: 1.6rem;
-  padding: 1.5rem;
-  height: 4rem;
+.dashboard-table-task-name__action .custom-btn--comment {
+  padding: 0;
+  width: 3.5rem;
+  height: 3.5rem;
+  background: transparent;
+  min-width: auto;
+}
+
+.dashboard-table-task-name__action .custom-btn--comment img {
+  object-fit: contain;
 }
 
 /* Current Task */
