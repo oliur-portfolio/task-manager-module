@@ -33,7 +33,7 @@
   <body>
     <!-- Modals Area -->
     <div
-      class="modal micromodal-slide"
+      class="modal micromodal-slide modal-task-assign"
       id="modal-task-assign"
       aria-hidden="true"
     >
@@ -405,6 +405,63 @@
                   </div>
                   <!-- Single Item -->
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal micromodal-slide modal-task-status"
+      id="modal-task-status"
+      aria-hidden="true"
+    >
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+        <div
+          class="modal__container"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="modal-task-assign-title"
+        >
+          <button
+            class="modal__close"
+            aria-label="Close modal"
+            data-micromodal-close
+          >
+            <img src="images/modal-close.png" alt="close" />
+          </button>
+
+          <div class="modal__content">
+            <div class="status-modal-content">
+              <div class="status-modal-content__header">
+                <h3 class="heading--22">Change project status</h3>
+
+                <select
+                  name="selectedStatus"
+                  id="selectedStatus"
+                  class="input-style select-input-style"
+                >
+                  <option value="ongoing">Ongoing</option>
+                  <option value="overdue">Overdue</option>
+                  <option value="completed">Completed</option>
+                </select>
+              </div>
+
+              <div class="status-modal-content__main">
+                <h5 class="heading--20">Travel Website - Dev</h5>
+
+                <p class="desc--18">TechWave Inc.</p>
+              </div>
+
+              <div class="task-assign-btns custom-btns">
+                <button
+                  data-micromodal-close
+                  class="custom-btn custom-btn--transparent"
+                >
+                  Cancel
+                </button>
+                <button class="custom-btn">Done</button>
               </div>
             </div>
           </div>
@@ -889,6 +946,7 @@
                           <div class="dashboard-task-table-data">
                             <button
                               class="task-table-label task-table-label--ongoing"
+                              data-micromodal-trigger="modal-task-status"
                             >
                               &#9679; Ongoing
                             </button>
@@ -941,6 +999,7 @@
                           <div class="dashboard-task-table-data">
                             <button
                               class="task-table-label task-table-label--completed"
+                              data-micromodal-trigger="modal-task-status"
                             >
                               &#9679; Completed
                             </button>
@@ -993,6 +1052,7 @@
                           <div class="dashboard-task-table-data">
                             <button
                               class="task-table-label task-table-label--ongoing"
+                              data-micromodal-trigger="modal-task-status"
                             >
                               &#9679; Ongoing
                             </button>
@@ -1067,6 +1127,7 @@
                           <div class="dashboard-task-table-data">
                             <button
                               class="task-table-label task-table-label--overdue"
+                              data-micromodal-trigger="modal-task-status"
                             >
                               &#9679; Overdue
                             </button>
@@ -1119,6 +1180,7 @@
                           <div class="dashboard-task-table-data">
                             <button
                               class="task-table-label task-table-label--completed"
+                              data-micromodal-trigger="modal-task-status"
                             >
                               &#9679; Completed
                             </button>
@@ -1171,6 +1233,7 @@
                           <div class="dashboard-task-table-data">
                             <button
                               class="task-table-label task-table-label--ongoing"
+                              data-micromodal-trigger="modal-task-status"
                             >
                               &#9679; Ongoing
                             </button>

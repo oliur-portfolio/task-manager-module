@@ -232,7 +232,7 @@
   }
 
   .modal__overlay {
-    padding: 50px;
+    padding: 5rem;
   }
 
   .modal__container {
@@ -246,7 +246,7 @@
   }
 
   .dashboard-task-table {
-    min-width: 1100px;
+    min-width: 110rem;
   }
 
   .nav-sidebar-wrapper {
@@ -713,9 +713,9 @@
   .task-assign-btns .custom-btn {
     font-size: 1.6rem;
     min-width: auto;
-    padding: 8px 10px;
+    padding: 0.8rem 1rem;
     line-height: 1;
-    height: 40px;
+    height: 4rem;
   }
 
   .modal-comment-box__bottom-btns {
@@ -790,5 +790,18 @@
 
   .dashboard-total-box__title {
     gap: 1.6rem !important;
+  }
+
+  .status-modal-content__header .select-input-style {
+    font-size: 1.6rem;
+  }
+
+  .status-modal-content__main h5 {
+    font-size: 1.7rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .status-modal-content__main p {
+    font-size: 1.5rem;
   }
 }
