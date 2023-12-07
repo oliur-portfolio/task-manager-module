@@ -1,4 +1,4 @@
-tippy(".nav-sidebar__link", {
+tippy(".nav-sidebar__link, .dashboard-table-task-name__action .custom-btn", {
   placement: "bottom",
   delay: [300, 0],
 });
